@@ -14,7 +14,7 @@ public class KeepMoving
 	TouchSensor ts2 = new TouchSensor(SensorPort.S2);
 	
 	Motor.A.setSpeed(360);
-	Motor.C.setSpeed(365);
+	Motor.C.setSpeed(360);
 
 		while (!ts1.isPressed() && !ts2.isPressed()) //We are not hitting anything; go forward.
 		{
